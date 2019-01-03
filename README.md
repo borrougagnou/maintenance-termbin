@@ -312,8 +312,6 @@ __Format of the file:__ this file should contain only addresses, one per line.
 
 __Default value:__ not set
 
-__WARNING:__ not implemented yet
-
 -------------------------------------------------------------------------------
 
 #### White list `-w`
@@ -328,8 +326,6 @@ fiche -w fiche-whitelist.txt
 __Format of the file:__ this file should contain only addresses, one per line.
 
 __Default value:__ not set
-
-__WARNING:__ not implemented yet
 
 -------------------------------------------------------------------------------
 
