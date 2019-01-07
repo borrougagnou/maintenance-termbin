@@ -128,7 +128,7 @@ static void generate_slug(char **output, uint8_t length, uint8_t extra_length);
 
 /**
  * @brief Creates a directory at requested path using requested slug
- * @returns 0 if succeded, 1 if failed or dir already existed
+ * @returns 0 if succeeded, 1 if failed or dir already existed
  *
  * @arg output_dir root directory for all pastes
  * @arg slug directory name for a particular paste
@@ -279,7 +279,7 @@ int fiche_run(Fiche_Settings settings) {
 
     // Perform final cleanup
 
-    // This is allways allocated on the heap
+    // This is always allocated on the heap
     free(settings.domain);
 
     return 0;
@@ -472,7 +472,7 @@ static int start_server(Fiche_Settings *settings) {
     // Give some time for all threads to finish
     // NOTE: this code is reached only in testing environment
     // There is currently no way to kill the main thread from any thread
-    // Something like this can be done for testing purpouses:
+    // Something like this can be done for testing purposes:
     // int i = 0;
     // while (i < 3) {
     //     dispatch_connection(s, settings);
@@ -533,7 +533,7 @@ static void dispatch_connection(int socket, Fiche_Settings *settings) {
 
     pthread_attr_destroy(&attr);
 
-    // Detach thread if created succesfully
+    // Detach thread if created successfully
     // TODO: consider using pthread_tryjoin_np
     pthread_detach(id);
 
