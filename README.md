@@ -8,6 +8,7 @@ The official repository seems like not updated anymore, so I beginned to impleme
 ✅ PR Implemented:
 - [#109](https://github.com/solusipse/fiche/pull/109) musl-thread-fix
 - [#114](https://github.com/solusipse/fiche/pull/114) ClemontX-master
+- [#92](https://github.com/solusipse/fiche/pull/92) spelling
 ❌ PR Rejected:
 - [#117](https://github.com/solusipse/fiche/pull/117) patch-1
 - [#93](https://github.com/solusipse/fiche/pull/93) fix-readme 
