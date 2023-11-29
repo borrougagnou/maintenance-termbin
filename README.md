@@ -1,6 +1,18 @@
 fiche [![Build Status](https://travis-ci.org/solusipse/fiche.svg?branch=master)](https://travis-ci.org/solusipse/fiche)
 =====
 
+## MAINTAINER MODE
+The official repository seems like not updated anymore, so I beginned to implement some PR into this repository
+
+### Changelog (20231129)
+✅ PR Implemented:
+
+❌ PR Rejected:
+
+⏳ PR Waiting:
+
+
+---
 Command line pastebin for sharing terminal output.
 
 # Client-side usage
