@@ -6,9 +6,9 @@ The official repository seems like not updated anymore, so I beginned to impleme
 
 ### Changelog (20231129)
 ✅ PR Implemented:
-
+- [#109](https://github.com/solusipse/fiche/pull/109) musl-thread-fix
 ❌ PR Rejected:
-
+- [#117](https://github.com/solusipse/fiche/pull/117) patch-1
 ⏳ PR Waiting:
 
 
