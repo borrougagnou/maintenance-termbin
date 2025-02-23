@@ -4,6 +4,15 @@ fiche [![Build Status](https://travis-ci.org/solusipse/fiche.svg?branch=master)]
 ## MAINTAINER MODE
 The official repository seems like not updated anymore, so I beginned to implement some PR into this repository
 
+### Changelog (20250223)
+This version is a mix between 2 MR, The Dockerfile will use Alpine instead of Ubuntu,
+the security of the container is improved, and the image size (compared to the previous version) is very light.
+
+✅ PR Mixed:
+- [#114](https://github.com/solusipse/fiche/pull/114) ClemontX-master
+- [#123](https://github.com/solusipse/fiche/pull/123) bryanpedini
+
+
 ### Changelog (20231129)
 
 ✅ PR Implemented:
@@ -138,7 +147,7 @@ To use fiche you have to have netcat installed. You probably already have it - t
 1. Clone:
 
     ```
-    git clone https://github.com/solusipse/fiche.git
+    git clone https://github.com/borrougagnou/maintenance-termbin.git
     ```
 
 2. Build:
@@ -159,7 +168,7 @@ To use fiche you have to have netcat installed. You probably already have it - t
 There is a Dockerfile and a docker-compose.yml in the repository.
 You can run fiche with docker by cloning the repository with:
 ```bash
-git clone https://github.com/solusipse/fiche
+git clone https://github.com/borrougagnou/maintenance-termbin.git
 ```
 Edit the docker-compose.yml to your needs (change the Domain, Port and Directory).
 Finaly you can run fiche by typing

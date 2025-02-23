@@ -11,4 +11,7 @@ install: fiche
 clean:
 	rm -f fiche
 
+docker:
+	docker build --tag solusipse/fiche --build-arg ALPINE_VERSION=3.21 .
+
 .PHONY: clean
